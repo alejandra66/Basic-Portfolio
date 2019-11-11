@@ -1,3 +1,47 @@
-body { 
-   background: red;
+header { 
+   border: solid #cccccc;
+   margin-top: -1px;
+   margin-left: -5px;
+   margin-right: -5px;
+   border-width: thin;
 }
+.container-fluid {
+   background: #ffffff;
+   padding: 20px; 
+}
+.main-logo { 
+   background: #4aaaa5;
+   color: #ffffff;
+   margin-left: 280px;
+   margin-top: -20px;
+   margin-bottom: -20px;
+}
+.main-logo2 {
+   color: #ffffff;
+   margin-top: 10px;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+.nav {
+   float: right;
+   margin-left: 260px;
+   color: #cccccc;
+}
+.section { 
+   background: #ffffff;
+   margin-top: 40px;
+   margin-left: 20%;
+   margin-right: 20%;
+   width: 960px; 
+}
+h2 {
+   color: #4aaaa5;
+   margin-top: 20px;
+   margin-left: 40px;
+}  
+
+
+
+
+
+ 
