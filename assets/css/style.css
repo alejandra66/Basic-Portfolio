@@ -1,4 +1,13 @@
+html, body {
+   height: 100%;
+   margin: 0;
+}
+.wrapper {
+   min-height: 100%;
+   margin-bottom: -50px;
+}
 header { 
+   font-family: Georgia, 'Times New Roman', Times, serif;
    border: solid #cccccc;
    margin-top: -1px;
    margin-left: -5px;
@@ -25,9 +34,14 @@ header {
 .nav {
    float: right;
    margin-left: 260px;
-   color: #cccccc;
+
+}
+.nav-link { 
+   font-family: Arial, Helvetica, sans-serif;
+   color: #777777;
 }
 .section { 
+   font-family: Arial, Helvetica, sans-serif;
    background: #ffffff;
    margin-top: 40px;
    margin-left: 20%;
@@ -38,10 +52,32 @@ h2 {
    color: #4aaaa5;
    margin-top: 20px;
    margin-left: 40px;
-}  
-
-
-
-
-
- 
+}
+hr {
+   border: 1px solid #777777;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+p {
+   color: #777777;
+   line-height: 1cm;
+}
+#cat {
+   margin-left: 20px;
+}
+.contanier {
+   margin-left: 20px;
+   margin-top: 20px;
+} 
+.contanier2 {
+   margin-left: 20px;
+}
+/* hr.new1 {
+   color: 20px solid #4aaaa5; 
+} */
+.footer, 
+.push {
+   height: 50px;
+   background: #777777;
+   
+}
