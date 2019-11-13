@@ -1,18 +1,21 @@
 html, body {
    height: 100%;
-   margin: 0;
+   margin: 0;  
 }
 .wrapper {
-   min-height: 100%;
-   margin-bottom: -50px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 960px;
 }
+
+/* header & nav start  */
 header { 
    font-family: Georgia, 'Times New Roman', Times, serif;
-   border: solid #cccccc;
-   margin-top: -1px;
+   border: solid #dddddd;
+   margin-top: -5px;
    margin-left: -5px;
    margin-right: -5px;
-   border-width: thin;
+   border-width: 1%;
 }
 .container-fluid {
    background: #ffffff;
@@ -40,6 +43,16 @@ header {
    font-family: Arial, Helvetica, sans-serif;
    color: #777777;
 }
+/* heade & nav ends */
+
+/* lines between about & Portfolio starts */
+.line { 
+   color: #cccccc;
+   margin-top: 7px;
+}
+/* lines between about & Portfolio ends */
+
+/* main section starts */
 .section { 
    font-family: Arial, Helvetica, sans-serif;
    background: #ffffff;
@@ -47,6 +60,8 @@ header {
    margin-left: 20%;
    margin-right: 20%;
    width: 960px; 
+   border-width: 0px;
+   border: solid #dddddd;
 }
 h2 {
    color: #4aaaa5;
@@ -54,7 +69,7 @@ h2 {
    margin-left: 40px;
 }
 hr {
-   border: 1px solid #777777;
+   border: 1px solid #dddddd;
    margin-left: 20px;
    margin-right: 20px;
 }
@@ -72,12 +87,24 @@ p {
 .contanier2 {
    margin-left: 20px;
 }
-/* hr.new1 {
-   color: 20px solid #4aaaa5; 
-} */
-.footer, 
-.push {
-   height: 50px;
-   background: #777777;
-   
+/* main section ends */
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background: #4aaaa5;
+   padding: 37px;
 }
+.footer2 {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding: 20px;
+   background-color: #777777;
+   color: white;
+   text-align: center;
+    
+ }
