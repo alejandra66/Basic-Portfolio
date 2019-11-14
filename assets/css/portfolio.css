@@ -73,20 +73,19 @@ html, body {
     margin-left: 20px;
     margin-right: 20px;
  }
- p {
+.form-group {
+    margin-left: 20px;
+    margin-right: 20px;
     color: #777777;
-    line-height: 1cm;
- }
- #cat {
+}
+.btn-primary {
+    background: #4aaaa5;
+    border-color: #4aaaa5;
     margin-left: 20px;
- }
- .contanier {
-    margin-left: 20px;
-    margin-top: 20px;
- } 
- .contanier2 {
-    margin-left: 20px;
- }
+    margin-bottom: 20px;
+    border-radius: 0px;
+    width: 10%;
+}
  /* main section ends */
  
  .footer {
